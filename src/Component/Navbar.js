@@ -63,23 +63,23 @@ function Navbar({navQuery}) {
                                     <LinkS to='pony-card'
                                            smooth={true} duration={500} onClick={closeMobileMenu}
                                     >
-                                        Meet the friends
+                                        Concerts
                                     </LinkS>
                                 )
                                 :
                                 (
-                                    (<LinkR to='/' onClick={closeMobileMenu} >Meet the friends</LinkR>)
+                                    (<LinkR to='/' onClick={closeMobileMenu} >Concerts</LinkR>)
                                 )
                         }
 
                     </li>
                     <li>
                         <LinkR to='/products' onClick={closeMobileMenu}>
-                            Products
+                            Artists
                         </LinkR>
                     </li>
                     <li>
-                        <LinkR to='/cart' onClick={closeMobileMenu}>Cart</LinkR>
+                        <LinkR to='/cart' onClick={closeMobileMenu}>Service</LinkR>
                     </li>
                 </ul>
                 <div className={changeIconClasses()}>

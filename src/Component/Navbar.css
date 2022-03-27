@@ -17,11 +17,14 @@
     height: 100%;
 }
 .logo-link {
-    width: 60px;
+    width: 80px;
     object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.pony-logo {
+    border-radius: 50%;
 }
 .nav-icon {
     display: flex;
@@ -79,7 +82,7 @@
     transition: var(--transition);
 }
 .iconActive {
-    height: 10vh;
+    height: 8vh;
     z-index: 20;
 }
 
@@ -98,7 +101,7 @@
     .iconLinks {
         position: static;
         height: auto;
-        background-color: var(--clr-yellow);
+        background-color: var(--clr-dark);
     }
     .navLinks {
         display: flex;
@@ -111,7 +114,7 @@
         text-decoration: none;
         font-size: var(--fs-body);
         font-weight: var(--fw-bold);
-        color: var(--clr-light);
+        color: var(--clr-yellow);
     }
 
 }
